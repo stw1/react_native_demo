@@ -5,14 +5,12 @@ import {
 	StyleSheet
 } from 'react-native'
 
-import ViewContainer from './components/ViewContainer'
+import Authentication from './scenes/Authentication'
 
 export default class App extends Component {
 	render() {
 		return (
-			<ViewContainer>
-
-			</ViewContainer>
+			<Authentication />
 		)
 	}
 }
